@@ -1,0 +1,16 @@
+{
+  "name": "webchat",
+  "version": "1.0.0",
+  "description": "Simple web chat app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Abdul",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.21.1",
+    "socket-io": "^1.0.0",
+    "socket.io": "^4.8.1"
+  }
+}

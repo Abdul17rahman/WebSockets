@@ -1,0 +1,76 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f4f4f4;
+}
+
+.chat {
+  display: flex;
+  flex-direction: column;
+  width: 95vw;
+  height: 85vh;
+  border: 1px solid #ccc;
+  background-color: white;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.response {
+  flex: 1;
+  padding: 10px;
+  overflow-y: auto;
+  background-color: #e9ecef;
+  display: flex;
+  flex-direction: column;
+}
+.user-msg {
+  background-color: #e0f7fa;
+  padding: 10px 15px;
+  border-radius: 8px;
+  margin: 10px 0;
+  /* max-width: 80%; */
+  align-self: flex-start;
+  word-wrap: break-word;
+}
+
+.res-msg {
+  background-color: #c8e6c9;
+  padding: 10px 15px;
+  border-radius: 8px;
+  margin: 10px 0;
+  /* max-width: 80%; */
+  align-self: flex-end;
+  word-wrap: break-word;
+}
+
+.section {
+  display: flex;
+  padding: 10px;
+  border-top: 1px solid #ccc;
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  width: 80vw;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 5px;
+}
+
+button {
+  padding: 10px 15px;
+  width: 8vw;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
